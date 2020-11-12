@@ -38,8 +38,7 @@ public class TemperatureSeriesAnalysis {
 
         if (size == 0 || arr.length == 0) {
 
-            throw new IllegalArgumentException("No temperatures to " +
-                                               "calculate.");
+            throw new IllegalArgumentException("No temperatures to " + "calculate.");
         }
     }
 
@@ -49,8 +48,7 @@ public class TemperatureSeriesAnalysis {
 
             if (el < ZERO) {
 
-                throw new InputMismatchException("Temperature below " + 
-                                                 "absolute zero");
+                throw new InputMismatchException("Temperature below " + "absolute zero");
             }
         }
     }
